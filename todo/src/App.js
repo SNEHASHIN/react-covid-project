@@ -1,6 +1,8 @@
 //  import React, { useState } from "react";
-import "./App.css";
-import Covid from "./components/Covid";
+// import "./App.css";
+import "./components/LoginForm.css"; 
+// import Covid from "./components/Covid";
+import LoginForm from "./components/LoginForm";
 // import darklight from "./components/darklight";
 // import Form from "./components/Form";
 // import TodoList from "./components/todolist";
@@ -48,7 +50,8 @@ const App = () => {
   return (
     <div className="App">
       {/* <darklight /> */}
-        <Covid />;
+        {/* <Covid />; */}
+        <LoginForm />
       {/* </div> */}
       {/* <>helllo</<Covid />;h1> */}
     </div>
