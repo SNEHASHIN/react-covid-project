@@ -1,11 +1,15 @@
 //  import React, { useState } from "react";
-// import "./App.css";
-import "./components/LoginForm.css"; 
+ import "./App.css";
+ import Counter from "./components/Counter";
+// import "./components/LoginForm.css"; 
 // import Covid from "./components/Covid";
-import LoginForm from "./components/LoginForm";
+// import LoginForm from "./components/LoginForm";
 // import darklight from "./components/darklight";
 // import Form from "./components/Form";
 // import TodoList from "./components/todolist";
+// import NewsPage from ".components/NewsPage";
+
+
 
 const App = () => {
   // const [data, setData] =useState([]);
@@ -51,7 +55,9 @@ const App = () => {
     <div className="App">
       {/* <darklight /> */}
         {/* <Covid />; */}
-        <LoginForm />
+        {/* <LoginForm /> */}
+        <Counter />
+        {/* <NewsPage />; */}
       {/* </div> */}
       {/* <>helllo</<Covid />;h1> */}
     </div>
