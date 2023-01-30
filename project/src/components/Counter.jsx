@@ -21,7 +21,7 @@ const handlereset = () => {
       <>
        <p>{count}</p>
        <button onClick={handleincrement}>increment</button>
-       <button onClick={handledecrement} disabled={count==0}>decrement</button>
+       <button onClick={handledecrement} disabled={count===0}>decrement</button>
        <button onClick={handlereset}>reset</button>
       </>
     );
